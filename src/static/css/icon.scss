@@ -1,0 +1,60 @@
+
+@font-face {font-family: "icon";
+  src: url('//at.alicdn.com/t/font_mr8jb8rpgof4unmi.eot?t=1490084677512'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_mr8jb8rpgof4unmi.eot?t=1490084677512#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_mr8jb8rpgof4unmi.woff?t=1490084677512') format('woff'), /* chrome, firefox */
+  url('//at.alicdn.com/t/font_mr8jb8rpgof4unmi.ttf?t=1490084677512') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_mr8jb8rpgof4unmi.svg?t=1490084677512#icon') format('svg'); /* iOS 4.1- */
+}
+
+.icon {
+  font-family:"icon" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-guqin:before { content: "\e600"; }
+
+.icon-settings:before { content: "\e646"; }
+
+.icon-seller:before { content: "\e608"; }
+
+.icon-wenzi:before { content: "\e7d0"; }
+
+.el-icon-order:before { content: "\e1046"; @extend .icon;}
+
+.icon-shangpinguanli:before { content: "\e601"; }
+
+.icon-user:before { content: "\e85f"; }
+
+.icon-finance:before { content: "\e621"; }
+
+.el-icon-pay:before { content: "\e1047"; @extend .icon;}
+
+.el-icon-daifahuo:before { content: "\e1048"; @extend .icon;}
+
+.icon-jiahao:before { content: "\e62e"; }
+
+.icon-plus:before { content: "\e62d"; }
+
+.icon-article:before { content: "\e67c"; }
+
+.icon-wenhua:before { content: "\e606"; }
+
+.icon-club:before { content: "\e60f"; }
+
+.icon-operate:before { content: "\e6c3"; }
+
+.icon-auth:before { content: "\e735"; }
+
+.icon-course:before { content: "\e61b"; }
+
+.el-icon-dingdan:before { content: "\e1075"; @extend .icon;}
+
+.icon-qizi:before { content: "\e1086"; }
+
+.el-icon-querenshouhuo:before { content: "\e605"; @extend .icon;}
+
+

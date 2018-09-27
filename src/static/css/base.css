@@ -1,0 +1,39 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  background-size: cover;
+  float: left;
+}
+.content{
+  background: #fff;
+}
+
+.pad20 {
+  padding: 20px;
+}
+
+.w50 {
+  width: 50px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h50 {
+  height: 50px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
